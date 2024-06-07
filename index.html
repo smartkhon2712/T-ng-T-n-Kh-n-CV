@@ -23,10 +23,12 @@
   </head>
   <body>
     <main class="pt-[64px]">
-      <div class="w-[1440px] mx-auto flex">
-        <aside class="w-[540px]">
+      <div
+        class="xl:w-[1440px] xl:mx-auto flex flex-col-reverse gap-[48px] xl:gap-[0px] xl:flex-row px-[24px] xl:px-[0px]"
+      >
+        <aside class="w-full xl:w-[540px]">
           <div
-            class="bg-[url('./images/personal-picture.jpg')] h-[669px] bg-cover bg-center bg-no-repeat relative px-[24px] rounded-[32px]"
+            class="hidden xl:block bg-[url('./images/personal-picture.jpg')] h-[669px] bg-cover bg-center bg-no-repeat relative px-[24px] rounded-[32px]"
           >
             <div
               class="w-[492px] mx-auto h-[129px] px-[30px] py-[24px] absolute bottom-[24px] bg-grey rounded-[32px]"
@@ -45,26 +47,26 @@
               </div>
             </div>
           </div>
-          <div class="p-[64px] flex flex-col gap-[28px]">
+          <div class="xl:p-[64px] flex flex-col gap-[28px]">
             <div>
               <h2
-                class="text-dark text-[26px] leading-[34px] font-[800] tracking-[2px] uppercase mb-[30px]"
+                class="text-dark text-[22px] xl:text-[26px] leading-[30px] xl:leading-[34px] font-[800] tracking-[2px] uppercase mb-[18px] xl:mb-[30px]"
               >
                 Programming Languages
               </h2>
               <div class="flex gap-[30px]">
                 <div
-                  class="px-[16px] py-[8px] bg-red text-white rounded-[16px]"
+                  class="text-[16px] xl:text-[20px] leading-[24px] xl:leading-[30px] px-[10px] xl:px-[16px] py-[6px] xl:py-[8px] bg-red text-white rounded-[16px]"
                 >
                   HTML
                 </div>
                 <div
-                  class="px-[16px] py-[8px] bg-red text-white rounded-[16px]"
+                  class="text-[16px] xl:text-[20px] leading-[24px] xl:leading-[30px] px-[10px] xl:px-[16px] py-[6px] xl:py-[8px] bg-red text-white rounded-[16px]"
                 >
                   CSS
                 </div>
                 <div
-                  class="px-[16px] py-[8px] bg-red text-white rounded-[16px]"
+                  class="text-[16px] xl:text-[20px] leading-[24px] xl:leading-[30px] px-[10px] xl:px-[16px] py-[6px] xl:py-[8px] bg-red text-white rounded-[16px]"
                 >
                   Javascript
                 </div>
@@ -72,18 +74,18 @@
             </div>
             <div>
               <h2
-                class="text-dark text-[26px] leading-[34px] font-[800] tracking-[2px] uppercase mb-[30px]"
+                class="text-dark text-[22px] xl:text-[26px] leading-[30px] xl:leading-[34px] font-[800] tracking-[2px] uppercase mb-[18px] xl:mb-[30px]"
               >
                 Foreign Languages
               </h2>
               <div class="flex gap-[30px]">
                 <div
-                  class="px-[16px] py-[8px] bg-red text-white rounded-[16px]"
+                  class="text-[16px] xl:text-[20px] leading-[24px] xl:leading-[30px] px-[10px] xl:px-[16px] py-[6px] xl:py-[8px] bg-red text-white rounded-[16px]"
                 >
                   Chinese
                 </div>
                 <div
-                  class="px-[16px] py-[8px] bg-red text-white rounded-[16px]"
+                  class="text-[16px] xl:text-[20px] leading-[24px] xl:leading-[30px] px-[10px] xl:px-[16px] py-[6px] xl:py-[8px] bg-red text-white rounded-[16px]"
                 >
                   English
                 </div>
@@ -91,13 +93,17 @@
             </div>
             <div>
               <h2
-                class="text-dark text-[26px] leading-[34px] font-[800] tracking-[2px] uppercase mb-[30px]"
+                class="text-dark text-[22px] xl:text-[26px] leading-[30px] xl:leading-[34px] font-[800] tracking-[2px] uppercase mb-[18px] xl:mb-[30px]"
               >
                 SOFT SKILLS
               </h2>
               <div class="flex gap-[16px] flex-wrap">
-                <div class="w-[190px] text-dark font-[600] tracking-[1px]">
-                  <h4 class="mb-[10px]">Team work</h4>
+                <div
+                  class="w-[160px] xl:w-[190px] text-dark font-[600] tracking-[1px]"
+                >
+                  <h4 class="text-[16px] xl:text-[20px] mb-[6px] xl:mb-[10px]">
+                    Team work
+                  </h4>
                   <div class="flex gap-[10px] items-center">
                     <img
                       src="./images/logo-star-full.svg"
@@ -122,8 +128,14 @@
                   </div>
                 </div>
                 <div>
-                  <div class="w-[190px] text-dark font-[600] tracking-[1px]">
-                    <h4 class="mb-[10px]">Communication</h4>
+                  <div
+                    class="w-[160px] xl:w-[190px] text-dark font-[600] tracking-[1px]"
+                  >
+                    <h4
+                      class="text-[16px] xl:text-[20px] mb-[6px] xl:mb-[10px]"
+                    >
+                      Communication
+                    </h4>
                     <div class="flex gap-[10px] items-center">
                       <img
                         src="./images/logo-star-full.svg"
@@ -149,8 +161,14 @@
                   </div>
                 </div>
                 <div>
-                  <div class="w-[190px] text-dark font-[600] tracking-[1px]">
-                    <h4 class="mb-[10px]">Creativity</h4>
+                  <div
+                    class="w-[160px] xl:w-[190px] text-dark font-[600] tracking-[1px]"
+                  >
+                    <h4
+                      class="text-[16px] xl:text-[20px] mb-[6px] xl:mb-[10px]"
+                    >
+                      Creativity
+                    </h4>
                     <div class="flex gap-[10px] items-center">
                       <img
                         src="./images/logo-star-full.svg"
@@ -176,8 +194,14 @@
                   </div>
                 </div>
                 <div>
-                  <div class="w-[190px] text-dark font-[600] tracking-[1px]">
-                    <h4 class="mb-[10px]">Organization</h4>
+                  <div
+                    class="w-[160px] xl:w-[190px] text-dark font-[600] tracking-[1px]"
+                  >
+                    <h4
+                      class="text-[16px] xl:text-[20px] mb-[6px] xl:mb-[10px]"
+                    >
+                      Organization
+                    </h4>
                     <div class="flex gap-[10px] items-center">
                       <img
                         src="./images/logo-star-full.svg"
@@ -203,8 +227,14 @@
                   </div>
                 </div>
                 <div>
-                  <div class="w-[190px] text-dark font-[600] tracking-[1px]">
-                    <h4 class="mb-[10px]">Management</h4>
+                  <div
+                    class="w-[160px] xl:w-[190px] text-dark font-[600] tracking-[1px]"
+                  >
+                    <h4
+                      class="text-[16px] xl:text-[20px] mb-[6px] xl:mb-[10px]"
+                    >
+                      Management
+                    </h4>
                     <div class="flex gap-[10px] items-center">
                       <img
                         src="./images/logo-star-full.svg"
@@ -230,8 +260,14 @@
                   </div>
                 </div>
                 <div>
-                  <div class="w-[190px] text-dark font-[600] tracking-[1px]">
-                    <h4 class="mb-[10px]">Presentation</h4>
+                  <div
+                    class="w-[160px] xl:w-[190px] text-dark font-[600] tracking-[1px]"
+                  >
+                    <h4
+                      class="text-[16px] xl:text-[20px] mb-[6px] xl:mb-[10px]"
+                    >
+                      Presentation
+                    </h4>
                     <div class="flex gap-[10px] items-center">
                       <img
                         src="./images/logo-star-full.svg"
@@ -260,12 +296,14 @@
             </div>
             <div>
               <h2
-                class="text-dark text-[26px] leading-[34px] font-[800] tracking-[2px] uppercase mb-[30px]"
+                class="text-dark text-[22px] xl:text-[26px] leading-[30px] xl:leading-[34px] font-[800] tracking-[2px] uppercase mb-[18px] xl:mb-[30px]"
               >
                 INTERESTS / HOBBIES
               </h2>
               <div class="flex gap-[20px] flex-wrap">
-                <div class="w-[190px] flex gap-[12px] items-center">
+                <div
+                  class="w-[160px] xl:w-[190px] flex gap-[12px] items-center"
+                >
                   <div>
                     <img
                       src="./images/programming.svg"
@@ -274,22 +312,26 @@
                     />
                   </div>
                   <div
-                    class="text-dark text-[18px] font-[600] uppercase tracking-[1px]"
+                    class="text-dark text-[14px] xl:text-[18px] font-[600] uppercase tracking-[1px]"
                   >
                     Programming
                   </div>
                 </div>
-                <div class="w-[190px] flex gap-[12px] items-center">
+                <div
+                  class="w-[160px] xl:w-[190px] flex gap-[12px] items-center"
+                >
                   <div>
                     <img src="./images/gaming.svg" alt="gaming" width="30px" />
                   </div>
                   <div
-                    class="text-dark text-[18px] font-[600] uppercase tracking-[1px]"
+                    class="text-dark text-[14px] xl:text-[18px] font-[600] uppercase tracking-[1px]"
                   >
                     Gaming
                   </div>
                 </div>
-                <div class="w-[190px] flex gap-[12px] items-center">
+                <div
+                  class="w-[160px] xl:w-[190px] flex gap-[12px] items-center"
+                >
                   <div>
                     <img
                       src="./images/language.svg"
@@ -298,22 +340,26 @@
                     />
                   </div>
                   <div
-                    class="text-dark text-[18px] font-[600] uppercase tracking-[1px]"
+                    class="text-dark text-[14px] xl:text-[18px] font-[600] uppercase tracking-[1px]"
                   >
                     Language
                   </div>
                 </div>
-                <div class="w-[190px] flex gap-[12px] items-center">
+                <div
+                  class="w-[160px] xl:w-[190px] flex gap-[12px] items-center"
+                >
                   <div>
                     <img src="./images/travel.svg" alt="travel" width="30px" />
                   </div>
                   <div
-                    class="text-dark text-[18px] font-[600] uppercase tracking-[1px]"
+                    class="text-dark text-[14px] xl:text-[18px] font-[600] uppercase tracking-[1px]"
                   >
                     Travel
                   </div>
                 </div>
-                <div class="w-[190px] flex gap-[12px] items-center">
+                <div
+                  class="w-[160px] xl:w-[190px] flex gap-[12px] items-center"
+                >
                   <div>
                     <img
                       src="./images/cuisine.svg"
@@ -322,17 +368,19 @@
                     />
                   </div>
                   <div
-                    class="text-dark text-[18px] font-[600] uppercase tracking-[1px]"
+                    class="text-dark text-[14px] xl:text-[18px] font-[600] uppercase tracking-[1px]"
                   >
                     Cuisine
                   </div>
                 </div>
-                <div class="w-[190px] flex gap-[12px] items-center">
+                <div
+                  class="w-[160px] xl:w-[190px] flex gap-[12px] items-center"
+                >
                   <div>
                     <img src="./images/pet.svg" alt="pet" width="30px" />
                   </div>
                   <div
-                    class="text-dark text-[18px] font-[600] uppercase tracking-[1px]"
+                    class="text-dark text-[14px] xl:text-[18px] font-[600] uppercase tracking-[1px]"
                   >
                     Pet
                   </div>
@@ -341,7 +389,7 @@
             </div>
             <div>
               <h2
-                class="text-dark text-[26px] leading-[34px] font-[800] tracking-[2px] uppercase mb-[30px]"
+                class="text-dark text-[22px] xl:text-[26px] leading-[30px] xl:leading-[34px] font-[800] tracking-[2px] uppercase mb-[18px] xl:mb-[30px]"
               >
                 Contact
               </h2>
@@ -350,39 +398,71 @@
               >
                 <div class="flex gap-[16px] items-center">
                   <div class="bg-red rounded-[50%] p-[10px]">
-                    <img src="./images/phone.svg" alt="phone" width="24px" />
+                    <img
+                      src="./images/phone.svg"
+                      alt="phone"
+                      class="w-[16px] xl:w-[24px]"
+                    />
                   </div>
-                  <div>0906-630-250</div>
+                  <div class="text-[16px] xl:text-[20px]">0906-630-250</div>
                 </div>
                 <div class="flex gap-[16px] items-center">
                   <div class="bg-red rounded-[50%] p-[10px]">
-                    <img src="./images/gmail.svg" alt="gmail" width="24px" />
+                    <img
+                      src="./images/gmail.svg"
+                      alt="gmail"
+                      class="w-[16px] xl:w-[24px]"
+                    />
                   </div>
-                  <div>smartkhon2712@gmail.com</div>
+                  <div class="text-[16px] xl:text-[20px]">
+                    smartkhon2712@gmail.com
+                  </div>
                 </div>
                 <div class="flex gap-[16px] items-center">
                   <div class="bg-red rounded-[50%] p-[10px]">
                     <img
                       src="./images/location.svg"
                       alt="location"
-                      width="24px"
+                      class="w-[16px] xl:w-[24px]"
                     />
                   </div>
-                  <div>Quận 5, TPHCM</div>
+                  <div class="text-[16px] xl:text-[20px]">Quận 5, TPHCM</div>
                 </div>
               </div>
             </div>
           </div>
         </aside>
-        <aside class="w-[900px] p-[64px]">
-          <div class="pb-[48px] border-b-2 border-grey">
+        <aside class="w-full xl:w-[900px] xl:p-[64px]">
+          <div
+            class="block xl:hidden bg-[url('./images/personal-picture.jpg')] h-[480px] xl:h-[669px] bg-contain bg-center bg-no-repeat relative xl:px-[24px]"
+          >
+            <div
+              class="w-[280px] xl:w-[492px] xl:h-[129px] px-[20px] xl:px-[30px] py-[16px] xl:py-[24px] absolute left-[50%] translate-x-[-50%] bottom-[24px] bg-grey rounded-[32px]"
+            >
+              <h1
+                class="text-white text-[24px] xl:text-[40px] leading-[30px] xl:leading-[40px] tracking-[2px] xl:tracking-[5px] text-center font-[800] uppercase mb-[8px] xl:mb-[16px]"
+              >
+                Tăng Tín Khôn
+              </h1>
+              <div
+                class="flex gap-[12px] justify-center items-center text-[18px] leading-[18px] font-[500]"
+              >
+                <span class="w-[32px] xl:w-[128px] h-[1px] bg-white"></span>
+                <span class="text-[14px] xl:text-[20px] text-white uppercase"
+                  >Lập trình viên</span
+                >
+                <span class="w-[32px] xl:w-[128px] h-[1px] bg-white"></span>
+              </div>
+            </div>
+          </div>
+          <div class="py-[48px] border-b-2 border-grey">
             <h2
-              class="text-dark text-[26px] leading-[34px] font-[800] tracking-[2px] uppercase mb-[30px]"
+              class="text-dark text-[22px] xl:text-[26px] leading-[30px] xl:leading-[34px] font-[800] tracking-[2px] uppercase mb-[18px] xl:mb-[30px]"
             >
               ABOUT ME
             </h2>
             <p
-              class="text-grey text-[24px] leading-[36px] font-[600] tracking-[1px]"
+              class="text-grey text-justify text-[18px] xl:text-[24px] xl:leading-[36px] font-[600] tracking-[1px]"
             >
               Tôi là một nhà phát triển giao diện người dùng đam mê và sáng tạo,
               mới bắt đầu sự nghiệp phát triển web. Với nền tảng vững chắc về
@@ -393,35 +473,35 @@
               đóng góp thành công cho doanh nghiệp.
             </p>
           </div>
-          <div class="pl-[66px] mt-[56px]">
+          <div class="pl-[46px] xl:pl-[66px] mt-[56px]">
             <h2
-              class="text-dark text-[26px] leading-[34px] font-[800] tracking-[2px] uppercase relative pl-[56px] mb-[52px] before:content-[''] before:w-[2px] before:h-[34px] before:bg-dark before:absolute before:left-[0px] before:top-[52px]"
+              class="text-dark text-[22px] xl:text-[26px] leading-[30px] xl:leading-[34px] font-[800] tracking-[2px] uppercase relative pl-[26px] xl:pl-[56px] mb-[40px] xl:mb-[52px] before:content-[''] before:w-[2px] before:h-[34px] before:bg-dark before:absolute before:left-[0px] before:top-[52px]"
             >
               <img
                 src="./images/icon-education.svg"
                 alt="icon-education"
-                class="absolute left-[-32px] top-[-18px]"
+                class="absolute left-[-22px] xl:left-[-32px] top-[-8px] xl:top-[-18px] w-[44px] xl:w-[64px]"
               />EDUCATION
             </h2>
             <div
-              class="relative before:content-[''] before:w-[2px] before:h-full before:bg-dark before:absolute before:left-[0px] after:content-[''] after:w-[2px] after:h-[40px] after:bg-dark after:absolute after:bottom-[-40px]"
+              class="relative before:content-[''] before:w-[2px] before:h-full before:bg-dark before:absolute before:left-[0px] after:content-[''] after:w-[2px] after:h-[20px] xl:after:h-[40px] after:bg-dark after:absolute after:bottom-[-20px] xl:after:bottom-[-40px]"
             >
               <div
-                class="pl-[56px] mb-[40px] relative text-dark text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
+                class="pl-[26px] xl:pl-[56px] mb-[26px] xl:mb-[40px] relative text-dark text-[14px] xl:text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
               >
                 <div
-                  class="absolute flex flex-col gap-[4px] text-red left-[-60px] top-[-12px]"
+                  class="absolute flex flex-col gap-[4px] text-red text-[12px] xl:text-[18px] left-[-50px] xl:left-[-60px] top-[-12px]"
                 >
                   <span class="border-b-2 uppercase">Now</span>
                   <span>2023</span>
                 </div>
                 <h3
-                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-red before:absolute before:rounded-[50%] before:left-[-60px] before:top-[11px] before:z-10"
+                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-red before:absolute before:rounded-[50%] before:left-[-30px] xl:before:left-[-60px] before:top-[11px] before:z-10"
                 >
                   Trung tâm lập trình Funix
                 </h3>
                 <div
-                  class="text-red text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px]"
+                  class="text-red text-[12px] xl:text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px]"
                 >
                   Front-end Develop
                 </div>
@@ -430,21 +510,21 @@
                 </p>
               </div>
               <div
-                class="pl-[56px] mb-[40px] relative text-dark text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
+                class="pl-[26px] xl:pl-[56px] mb-[26px] xl:mb-[40px] relative text-dark text-[14px] xl:text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
               >
                 <div
-                  class="absolute flex flex-col gap-[4px] text-red left-[-60px] top-[-12px]"
+                  class="absolute flex flex-col gap-[4px] text-red text-[12px] xl:text-[18px] left-[-50px] xl:left-[-60px] top-[-12px]"
                 >
                   <span class="border-b-2 uppercase">Now</span>
                   <span>2023</span>
                 </div>
                 <h3
-                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-red before:absolute before:rounded-[50%] before:left-[-60px] before:top-[11px] before:z-10"
+                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-red before:absolute before:rounded-[50%] before:left-[-30px] xl:before:left-[-60px] before:top-[11px] before:z-10"
                 >
                   Trung tâm Wall Street English
                 </h3>
                 <div
-                  class="text-red text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px]"
+                  class="text-red text-[12px] xl:text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px]"
                 >
                   ESL
                 </div>
@@ -454,21 +534,21 @@
                 </p>
               </div>
               <div
-                class="pl-[56px] mb-[40px] relative text-dark text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
+                class="pl-[26px] xl:pl-[56px] mb-[26px] xl:mb-[40px] relative text-dark text-[14px] xl:text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
               >
                 <div
-                  class="absolute flex flex-col gap-[4px] text-red left-[-60px] top-[-12px]"
+                  class="absolute flex flex-col gap-[4px] text-red text-[12px] xl:text-[18px] left-[-50px] xl:left-[-60px] top-[-12px]"
                 >
                   <span class="border-b-2 uppercase">2017</span>
                   <span>2012</span>
                 </div>
                 <h3
-                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-red before:absolute before:rounded-[50%] before:left-[-60px] before:top-[11px] before:z-10"
+                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-red before:absolute before:rounded-[50%] before:left-[-30px] xl:before:left-[-60px] before:top-[11px] before:z-10"
                 >
                   Trung tâm Hoa Ngữ Thái Phiên
                 </h3>
                 <div
-                  class="text-red text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px]"
+                  class="text-red text-[12px] xl:text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px"
                 >
                   HSK
                 </div>
@@ -479,35 +559,35 @@
               </div>
             </div>
           </div>
-          <div class="pl-[66px] mt-[66px]">
+          <div class="pl-[46px] xl:pl-[66px] mt-[56px]">
             <h2
-              class="text-dark text-[26px] leading-[34px] font-[800] tracking-[2px] uppercase relative pl-[56px] mb-[52px] before:content-[''] before:w-[2px] before:h-[34px] before:bg-dark before:absolute before:left-[0px] before:top-[52px]"
+              class="text-dark text-[22px] xl:text-[26px] leading-[30px] xl:leading-[34px] font-[800] tracking-[2px] uppercase relative pl-[26px] xl:pl-[56px] mb-[40px] xl:mb-[52px] before:content-[''] before:w-[2px] before:h-[34px] before:bg-dark before:absolute before:left-[0px] before:top-[52px]"
             >
               <img
                 src="./images/icon-work-exp.svg"
                 alt="icon-work-exp"
-                class="absolute left-[-32px] top-[-18px]"
+                class="absolute left-[-22px] xl:left-[-32px] top-[-8px] xl:top-[-18px] w-[44px] xl:w-[64px]"
               />WORK EXPERIENCE
             </h2>
             <div
-              class="relative before:content-[''] before:w-[2px] before:h-full before:bg-dark before:absolute before:left-[0px]"
+              class="relative before:content-[''] before:w-[2px] before:h-full before:bg-dark before:absolute before:left-[0px] after:content-[''] after:w-[2px] after:h-[20px] xl:after:h-[40px] after:bg-dark after:absolute after:bottom-[-20px] xl:after:bottom-[-40px]"
             >
               <div
-                class="pl-[56px] mb-[40px] relative text-dark text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
+                class="pl-[26px] xl:pl-[56px] mb-[26px] xl:mb-[40px] relative text-dark text-[14px] xl:text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
               >
                 <div
-                  class="absolute flex flex-col gap-[4px] text-green left-[-60px] top-[-12px]"
+                  class="absolute flex flex-col gap-[4px] text-green text-[12px] xl:text-[18px] left-[-50px] xl:left-[-60px] top-[-12px]"
                 >
                   <span class="border-b-2 uppercase">2024</span>
                   <span>2019</span>
                 </div>
                 <h3
-                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-green before:absolute before:rounded-[50%] before:left-[-60px] before:top-[11px] before:z-10"
+                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-green before:absolute before:rounded-[50%] before:left-[-30px] xl:before:left-[-60px] before:top-[11px] before:z-10"
                 >
                   Công ty ngành game tại Philippine
                 </h3>
                 <div
-                  class="text-green text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px]"
+                  class="text-green text-[12px] xl:text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px]"
                 >
                   Xuất nhập khoản
                 </div>
@@ -518,23 +598,23 @@
                 </p>
               </div>
               <div
-                class="pl-[56px] mb-[40px] relative text-dark text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
+                class="pl-[26px] xl:pl-[56px] mb-[26px] xl:mb-[40px] relative text-dark text-[14px] xl:text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
               >
                 <div
-                  class="absolute flex flex-col gap-[4px] text-green left-[-60px] top-[-12px]"
+                  class="absolute flex flex-col gap-[4px] text-green text-[12px] xl:text-[18px] left-[-50px] xl:left-[-60px] top-[-12px]"
                 >
                   <span class="border-b-2 uppercase">2019</span>
                   <span>2017</span>
                 </div>
                 <h3
-                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-green before:absolute before:rounded-[50%] before:left-[-60px] before:top-[11px] before:z-10"
+                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-green before:absolute before:rounded-[50%] before:left-[-30px] xl:before:left-[-60px] before:top-[11px] before:z-10"
                 >
                   Công ty kinh doanh CCTV
                 </h3>
                 <div
-                  class="text-green text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px]"
+                  class="text-green text-[12px] xl:text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px]"
                 >
-                  kỹ thuật viên
+                  Kỹ thuật viên
                 </div>
                 <p class="font-[600] tracking-[1px]">
                   Xử lí kĩ thuật về cơ cấu camera và hỗ trợ sale sản phẩm, tư
@@ -543,21 +623,21 @@
                 </p>
               </div>
               <div
-                class="pl-[56px] relative text-dark text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
+                class="pl-[26px] xl:pl-[56px] mb-[26px] xl:mb-[40px] relative text-dark text-[14px] xl:text-[18px] leading-[26px] font-[800] after:content-[''] after:w-[20px] after:h-[20px] after:bg-dark after:absolute after:rounded-[50%] after:left-[-9px] after:top-[5px] after:z-0"
               >
                 <div
-                  class="absolute flex flex-col gap-[4px] text-green left-[-60px] top-[-12px]"
+                  class="absolute flex flex-col gap-[4px] text-green text-[12px] xl:text-[18px] left-[-50px] xl:left-[-60px] top-[-12px]"
                 >
                   <span class="border-b-2 uppercase">2017</span>
                   <span>2016</span>
                 </div>
                 <h3
-                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-green before:absolute before:rounded-[50%] before:left-[-60px] before:top-[11px] before:z-10"
+                  class="tracking-[2px] uppercase relative before:content-[''] before:w-[10px] before:h-[10px] before:bg-green before:absolute before:rounded-[50%] before:left-[-30px] xl:before:left-[-60px] before:top-[11px] before:z-10"
                 >
                   Công ty sản xuất may mặc
                 </h3>
                 <div
-                  class="text-green text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px]"
+                  class="text-green text-[12px] xl:text-[16px] leading-[22px] tracking-[2px] uppercase pt-[16px] pb-[24px"
                 >
                   Phiên dịch viên
                 </div>
