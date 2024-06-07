@@ -1,18 +1,11 @@
 tailwind.config = {
   theme: {
     colors: {
-      "dim-light": "#EEEEEE",
-      "light-dark": "#222831",
+      dark: "#2F2F2F",
       white: "#FFFFFF",
-      black: "#000000",
-      dark: "#191825",
-      purple: "#5D50C6",
-      pink: "#F85E9F",
-      borderline: "rgba(25, 24, 37, 0.1)",
-      silver: "rgba(25, 24, 37, 0.5)",
-      grey: "rgba(25, 24, 37, 0.75)",
-      orange: "#FF5722",
-      "light-yellow": "rgba(250, 205, 73, 0.08)",
+      grey: "#606366",
+      green: "#00C0AA",
+      red: "#F43054",
     },
   },
 };
